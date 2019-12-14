@@ -70,12 +70,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)shaders;$(ProjectDir)source\common;$(ProjectDir)external\glfw\include;C:\Qt_Sandbox\TESTER\Blue_Globe_OpenGL\Blue_Globe_OpenGL\external\glad\include;$(ProjectDir)external\FreeImage\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)external\glfw\lib;$(ProjectDir)external\FreeImage\lib;C:\Qt_Sandbox\TESTER\Blue_Globe_OpenGL\Blue_Globe_OpenGL\external\glad\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)shaders;$(ProjectDir)source\common;$(ProjectDir)external\glfw\include;$(ProjectDir)external\glad\include;$(ProjectDir)external\FreeImage\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)external\glfw\lib;$(ProjectDir)external\FreeImage\lib;$(ProjectDir)external\glad\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(ProjectDir)shaders;$(ProjectDir)source\common;$(ProjectDir)external\glfw\include;C:\Qt_Sandbox\TESTER\Blue_Globe_OpenGL\Blue_Globe_OpenGL\external\glad\include;$(ProjectDir)external\FreeImage\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)external\glfw\lib;$(ProjectDir)external\FreeImage\lib;C:\Qt_Sandbox\TESTER\Blue_Globe_OpenGL\Blue_Globe_OpenGL\external\glad\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)shaders;$(ProjectDir)source\common;$(ProjectDir)external\glfw\include;$(ProjectDir)external\glad\include;$(ProjectDir)external\FreeImage\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)external\glfw\lib;$(ProjectDir)external\FreeImage\lib;$(ProjectDir)external\glad\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
