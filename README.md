@@ -6,3 +6,6 @@ To rotate view of the globe, use left (or right) mouse click and move mouse to d
 To move the globe, hold 'ALT' while moving the mouse with left mouse click. 
 To zoom into the globe, hold 'shift' and left mouse click then move to desired zoom.
 
+![screenshot](./screenshot1.png)
+
+![screenshot](./screenshot2.png)
